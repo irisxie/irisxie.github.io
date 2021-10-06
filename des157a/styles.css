@@ -2,6 +2,9 @@ header {
     font-family: 'Roboto', sans-serif;
 }
 
+head {
+    
+}
 h1 {
     font-family: 'Roboto', sans-serif;
 }
@@ -14,8 +17,19 @@ body {
     max-width: 1200px;
     min-width: 800px;
     margin: auto;
-    background-color: #26294f;
+    background-color: ##26294f;
     color: #lavender;
+}
+
+main {
+    display: flex;
+    justify-content: space-between;
+    margin: 30px auto;
+}
+
+section {
+    background-color: #white;
+    
 }
 
 ul {
