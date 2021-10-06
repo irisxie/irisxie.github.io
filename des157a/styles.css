@@ -1,12 +1,28 @@
 header {
-    font-family: 'Roboto', sans-serif;
+    
+    
 }
 h1 {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Koh Santepheap', cursive;
+    justify-content: center;
+    margin: 40px auto;
+    text-align:center;
+    font-size: 65px;
 }
 
 h2 {
     font-family: 'Roboto', sans-serif;
+    justify-content: center;
+    margin: 5px auto;
+    text-align:center;
+    font-size: 32px;
+}
+
+h3 {
+    font-family: 'Roboto', sans-serif;
+    justify-content: center;
+    text-align:center;
+    font-size: 24px;
 }
 
 body {
@@ -15,6 +31,7 @@ body {
     margin: auto;
     background-color: azure;
     color: #lavender;
+    
 }
 
 
@@ -28,8 +45,7 @@ main {
 }
 
 section {
-    background-color: #white;
-    margin: 10px auto;
+    margin: 2px auto;
     justify-content:center;
     
     
@@ -75,10 +91,6 @@ ul {
       height: 50px;
     width: 50px;
       cursor:pointer;
-      animation-name: animation1;
-      animation-duration: 10s;
-      animation-timing-function:linear;
-      animation-fill-mode:forwards;
 
 }
 
