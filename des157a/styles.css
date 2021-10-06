@@ -1,10 +1,6 @@
 header {
     font-family: 'Roboto', sans-serif;
 }
-
-head {
-    
-}
 h1 {
     font-family: 'Roboto', sans-serif;
 }
@@ -14,25 +10,115 @@ h2 {
 }
 
 body {
-    max-width: 1200px;
+    max-width: 1100px;
     min-width: 800px;
     margin: auto;
-    background-color: ##26294f;
+    background-color: azure;
     color: #lavender;
 }
 
+
+}
 main {
     display: flex;
-    justify-content: space-between;
-    margin: 30px auto;
+    justify-content: center;
+    margin: auto;
+    left:50px
+   
 }
 
 section {
     background-color: #white;
+    margin: 10px auto;
+    justify-content:center;
+    
     
 }
 
 ul {
     list-style-type: none;
     font-family: 'Roboto', sans-serif;
+}
+
+.container {
+    display: flex;
+    width:1100px;
+    
+  }
+
+  #banner {
+    height: 250px;
+     margin: 40px 0;
+    position: relative;
+    margin-left: auto;
+    background-color: #26294f;
+    border-radius: 25px;
+  }
+
+  .stars {
+    height: 50px;
+    width: 50px;
+    background-color: palevioletred;
+    border-radius: 50%;
+    display: inline-block;
+  }
+
+  #star1 {
+    position: relative;
+  left: 600px;
+  top: 40px;
+  transition:all 2.5s;
+  }
+
+  #star1:hover { 
+      background-color:white;
+      height: 50px;
+    width: 50px;
+      cursor:pointer;
+      animation-name: animation1;
+      animation-duration: 10s;
+      animation-timing-function:linear;
+      animation-fill-mode:forwards;
+
+}
+
+
+  #star2 {
+    position: relative;
+    left: 300px;
+    top: 100px;
+    transition:all 1.5s;
+  
+  }
+
+  #star2:hover { 
+      
+      cursor:pointer;
+      background-color:thistle;
+      height: 100px;
+    width: 40px;
+}
+
+  #star3 {
+      position: relative;
+    left: 20px;
+    top: 25px;
+    transition:all 2s;
+  }
+
+  #star3:hover { 
+    height: 20px;
+  width: 100px;
+      background-color:aquamarine;
+      cursor:pointer;
+
+}
+
+footer{
+    display: flex;
+    justify-content: space-between;
+    position:relative;
+    width:500px;
+    font-family: 'Roboto', sans-serif;
+    margin:auto;
 }
