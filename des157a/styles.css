@@ -3,26 +3,26 @@ header {
     
 }
 h1 {
+    
+    display:flex;
+    justify-content: space-around;
     font-family: 'Koh Santepheap', cursive;
-    justify-content: center;
-    margin: 40px auto;
-    text-align:center;
     font-size: 65px;
+
 }
 
 h2 {
+    display:flex;
+    justify-content: space-around;
     font-family: 'Roboto', sans-serif;
-    justify-content: center;
-    margin: 5px auto;
-    text-align:center;
     font-size: 32px;
+   
 }
 
 h3 {
     font-family: 'Roboto', sans-serif;
-    justify-content: center;
-    text-align:center;
     font-size: 24px;
+    
 }
 
 body {
@@ -30,66 +30,56 @@ body {
     min-width: 800px;
     margin: auto;
     background-color: azure;
-    color: #lavender;
+    color: #black;
     
 }
 
-
-}
 main {
-    display: flex;
-    justify-content: center;
-    margin: auto;
-    left:50px
-   
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
 }
 
 section {
-    margin: 2px auto;
-    justify-content:center;
-    
-    
+    left:50px;
 }
+
 
 ul {
     list-style-type: none;
     font-family: 'Roboto', sans-serif;
 }
 
-.container {
-    display: flex;
-    width:1100px;
-    
-  }
+
 
   #banner {
     height: 250px;
      margin: 40px 0;
     position: relative;
     margin-left: auto;
-    background-color: #26294f;
+    background-image:radial-gradient( #26294f, black,  #6267a5);
     border-radius: 25px;
   }
 
   .stars {
     height: 50px;
     width: 50px;
-    background-color: palevioletred;
     border-radius: 50%;
     display: inline-block;
   }
 
   #star1 {
     position: relative;
+    background-color:palevioletred;
   left: 600px;
   top: 40px;
   transition:all 2.5s;
   }
 
   #star1:hover { 
-      background-color:white;
-      height: 50px;
-    width: 50px;
+      background-image: radial-gradient(circle, rgb(17, 97, 218), white, palevioletred);
+      height: 100px;
+    width: 100px;
       cursor:pointer;
 
 }
@@ -99,31 +89,36 @@ ul {
     position: relative;
     left: 300px;
     top: 100px;
+    background-image: radial-gradient(circle, aquamarine, white, palevioletred);
     transition:all 1.5s;
   
   }
 
   #star2:hover { 
-      
       cursor:pointer;
-      background-color:thistle;
+      background-image: radial-gradient(circle, purple, white, gold);
       height: 100px;
-    width: 40px;
+    width: 100px;
 }
 
   #star3 {
       position: relative;
-    left: 20px;
+    left: 25px;
     top: 25px;
+    background-image: radial-gradient(circle, purple, white, gold);
     transition:all 2s;
   }
 
   #star3:hover { 
-    height: 20px;
-  width: 100px;
-      background-color:aquamarine;
+    height: 100px;
+    width: 100px;
+    background-image: radial-gradient(circle, aquamarine, white, palevioletred);
+}
       cursor:pointer;
 
+}
+
+ul {
 }
 
 footer{
