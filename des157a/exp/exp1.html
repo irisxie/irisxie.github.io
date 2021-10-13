@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Experiment 1</title>
+</head>
+<body>
+    <h1>Experiment 1</h1>
+    <h2> Use Javascript console to see functionality of code</h2>
+
+        <script>
+    var sentence = prompt("Please write a sentence", "").toLowerCase()
+
+    if (sentence == sentence.toLowerCase()){
+        sentence = sentence.toUpperCase();
+
+        for (var i = 0; i < sentence.length; i++)
+        sentence[i] + '\n'
+        console.log(sentence.charAt(sentence.length-1));
+    }
+
+    // wanted to make string into array and then seperate out the last letter of the sentence
+    </script>
+</body>
+</html>
