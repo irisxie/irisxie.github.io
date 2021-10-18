@@ -54,6 +54,7 @@ ul {
 }
 
 .paragraph {
+    justify-content: center;;
     line-height: 150%;
     width:80%
 }
