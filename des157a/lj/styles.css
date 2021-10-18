@@ -44,6 +44,7 @@ main {
 }
 
 section {
+    font-family: 'Roboto', sans-serif;
 }
 
 
@@ -54,7 +55,7 @@ ul {
 
 .paragraph {
     line-height: 150%;
-    width:50%
+    width:80%
 }
 
 
