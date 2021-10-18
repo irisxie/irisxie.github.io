@@ -53,8 +53,10 @@ ul {
     font-family: 'Roboto', sans-serif;
 }
 
+img {
+    justify-content: center;
+}
 .paragraph {
-    justify-content: center;;
     line-height: 150%;
     width:80%
 }
